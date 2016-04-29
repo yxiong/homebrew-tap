@@ -2,7 +2,7 @@ require 'formula'
 
 class BoostNumpy < Formula
   homepage 'https://github.com/ndarray/'
-  url 'git@github.com:asford/Boost.NumPy.git', :using => :git, :branch => 'master'
+  url 'https://github.com/ndarray/Boost.NumPy', :using => :git, :branch => 'master'
   version "0.0.1"
 
   depends_on 'scons' => :build
